@@ -44,6 +44,7 @@
 ## 💝 Thanks to
 
 - [v1mkss](https://github.com/v1mkss)
+- [BANER](https://github.com/BANSAFAn)
 
 &nbsp;
 <p align="center">
