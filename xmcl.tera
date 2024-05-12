@@ -1,0 +1,51 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.json"
+---
+
+{%- set accent = "mauve" -%}
+{%- set latte = flavors["latte"].colors -%}
+{%- set palette = flavor.colors -%}
+
+{
+ "name": "default",
+ "ui": "keystone",
+ "version": 0,
+ "assets": {
+  "backgroundMusic": []
+ },
+ "colors": {
+  "lightAppBarColor": "#{{ latte.base.hex }}",
+  "lightSideBarColor": "#{{ latte.mantle.hex }}",
+  "lightPrimaryColor": "#{{ latte[accent].hex }}",
+  "lightBackground": "#{{ latte.base.hex }}",
+  "lightInfoColor": "#{{ latte.sky.hex }}",
+  "lightErrorColor": "#{{ latte.red.hex }}",
+  "lightWarningColor": "#{{ latte.yellow.hex }}",
+  "lightSuccessColor": "#{{ latte.green.hex }}",
+  "lightAccentColor": "#{{ latte[accent].hex }}",
+  "lightCardColor": "#{{ latte.surface1.hex }}",
+  "darkAppBarColor": "#{{ palette.base.hex }}",
+  "darkSideBarColor": "#{{ palette.mantle.hex }}",
+  "darkPrimaryColor": "#{{ palette[accent].hex }}",
+  "darkBackground": "#{{ palette.base.hex }}",
+  "darkInfoColor": "#{{ palette.sky.hex }}",
+  "darkErrorColor": "#{{ palette.red.hex }}",
+  "darkWarningColor": "#{{ palette.yellow.hex }}",
+  "darkSuccessColor": "#{{ palette.green.hex }}",
+  "darkAccentColor": "#{{ palette[accent].hex }}",
+  "darkCardColor": "#{{ palette.surface1.hex }}"
+ },
+ "settings": {
+  "backgroundType": "none",
+  "backgroundImageFit": "cover",
+  "backgroundMusicPlayOrder": "sequential",
+  "backgroundVolume": 1,
+  "blur": 4,
+  "backgroundColorOverlay": true,
+  "dark": true
+ }
+}

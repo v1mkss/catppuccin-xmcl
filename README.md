@@ -12,34 +12,33 @@
 </p>
 
 <p align="center">
-	<img src="./assets/Preview.webp"/>
+	<img src="./assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="./assets/Latte.webp"/>
+<img src="./assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="./assets/Frappé.webp"/>
+<img src="./assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="./assets/Macchiato.webp"/>
+<img src="./assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="./assets/Mocha.webp"/>
+<img src="./assets/mocha.webp"/>
 </details>
 
 ## Usage
-1. Go to the [./themes](./themes/) folder
-2. Select the theme you like and download it
-3. Open the XMCL launcher.
-4. Go to settings and find **Share Theme** and click on **Import Theme** and open the theme
-5. Enjoy the nice look of the launcher with the Catppuccin theme :)
+
+1. Download your theme flavor of choice from the [./themes](./themes/) folder. Latte is included as the light mode variant of all themes.
+2. Open the XMCL launcher.
+3. Go to settings and click **Share Theme** > **Import Theme** and select the downloaded theme.
 
 ## 💝 Thanks to
 
@@ -47,6 +46,7 @@
 - [BANER](https://github.com/BANSAFAn)
 
 &nbsp;
+
 <p align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
 </p>
